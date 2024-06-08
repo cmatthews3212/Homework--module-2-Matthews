@@ -1,5 +1,13 @@
 
 
+/* Font styles */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 /* All list resets */
 
 ul {
