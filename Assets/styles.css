@@ -40,7 +40,7 @@ a {
 
 a:hover {
     cursor: pointer;
-    color: #a2acb7;
+    color: white;
 }
 
 /* Header End */
@@ -107,7 +107,7 @@ main {
     
 }
 
-a:hover {
+#work #list-section .list a:hover {
     opacity: 50%;
 }
 
@@ -127,9 +127,6 @@ a:hover {
 #contact .links a {
     display: block;
     margin: 10px 0px 10px 0px;
-}
-
-    
 }
 
 /* Contact End */
