@@ -57,6 +57,11 @@ main {
     flex-direction: column;
     margin-top: 30px;
     width: 25%;
+    background-color: #fadace;
+    padding: 20px 10px 10px 20px;
+    border: solid 5px #fadace;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 #profile img {
@@ -119,7 +124,7 @@ main {
 #contact {
     background-color: #e2bac0;
     width: 25%;
-    padding: 10px 0px 10px 20px;
+    padding: 0px 10px 10px 20px;
     border: solid 5px #e2bac0;
     border-radius: 10px;
 }
