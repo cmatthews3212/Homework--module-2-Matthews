@@ -3,48 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/styles.css">
     <title>Advanced CSS Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>Christine's Advanced CSS Portfolio</h1>
+        <h1>Advanced CSS Portfolio</h1>
         <!-- Menu Links -->
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Applications</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#profile">About</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
 
     <main>
-        <h2>Christine Matthews</h2>
-        <img src="Assets/Images/profile.jpg" alt="Profile picture of girl with black hair sitting at a table with a coffee cup">
-       
+        <aside id="profile">
+            <img src="Assets/Images/profile.jpg" alt="Profile picture of girl with black hair sitting at a table with a coffee cup">
+            <h2>Christine Matthews</h2>
+            <p>
+                Born in raised in WI, Christine's adventure to software engineering started with her move to Chicago, IL in 2020.
+                She came to Chicago to work on her Bachelor's in Communications, which she received May of 2023. 
+                Through her time in college, she found herself working in her college's ITS Support center. 
+                During this time, she began to teach herself coding on the side. She really enjoyed what she was learning
+                and desired to use those skills in her professional life. She reached out to the WebTech department of her college
+                which was the department that ran all of her college's websites. They mentioned there was an open position in their department
+                so she applied and moved to the position of Technical Analyst, where she was able to use the skills she was learning
+                under the supervision of the Technical Product Analyst. By the time she graduated, the position of Technical Product Analyst
+                opened and she was able to interview for it and ended up promoting to that position full-time! After a year, her boss and she 
+                decided it would be useful for her to get a full-stack certificate in software engineering and she was given the opportunity to 
+                learn at Northwesters in their Coding Bootcamp! 
+            </p>
+            <p>
+                Here, you can see a portfolio of her work in the bootcamp, showcasing her advanced CSS skills!
+            </p>
+
+        </aside>
         <!-- About Me Section -->
         <section>
-            <h3>About me</h3>
-            <p>Christine Matthews is...</p>
+            <!-- <h3>About me</h3> -->
+           
         </section>
 
         <!-- Applications Section -->
-        <section>
-            <h3>Applications</h3>
-            <ul>
-                <li>Application 1</li>
-                <li>Application 2</li>
-                <li>Application 3</li>
-                <li>Application 4</li>
-            </ul>
+        <section id="work">
+            <h3>My Work</h3>
+            <div id="list-section">
+                <div id="ny" class="list">
+                    <a href="https://nyfw.com/" target="blank"> <img src="assets/Images/Fashion.jpeg"></a>
+                    <p class="caption"> New York Fashion Week</p>
+                 </div>
+                <div class="overlay"></div>
+                <div id="wale" class="list">
+                    <a href="https://www.imdb.com/title/tt0106965/" target="blank"> <img src="assets/Images/wales.jpeg"></a>
+                    <p class="caption"> Free the Wales</p>
+                </div>
+                <div id="abasi" class="list">
+                    <a href="https://abasiconcepts.com/" target="blank"> <img src="assets/Images/abasi.jpg"></a>
+                    <p class="caption"> Abasi </p>
+                </div>
+                <div id="pig" class="list">
+                    <a href="https://www.chicagolandpigrescue.com/#/" target="blank"> <img src="Assets/Images/pig.jpeg"> </a>
+                    <p class="caption"> Adopt a Pig</p>
+                </div>
+                <div id="coco" class="list">
+                    <a href="https://www.gofundme.com/f/join-cocos-journey" target="blank"> <img src="assets/Images/coco.jpg"></a>
+                    <p class="caption"> CoCo's Journey</p>
+                </div>
+            </div>
         </section>
 
         <!-- Contact Section -->
-        <section>
+        <section id="contact">
             <h3>Contact</h3>
-            <ul>
-                <li>Email</li>
-                <li>Phone</li>
-                <li>LinkedIn</li>
-            </ul>
+            <div class="links">
+                <a href="email:candreola@mody.edu">Email: candreola@moody.edu</a>
+                <a href="tel:608-921-2357">Phone: 608-921-2357</a>
+                <a href="https://www.linkedin.com/in/christine-andreola-matthews-21a7241b5/">LinkedIn</a>
+        </div>
         </section>
     </main>
 </body>

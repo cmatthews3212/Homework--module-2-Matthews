@@ -1,0 +1,291 @@
+
+
+/* Font styles */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* All list resets */
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+/* Header Start */
+
+header {
+    background-color: #e2bac0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1 {
+    margin-left: 2%;
+}
+
+header ul {
+    margin-right: 2%;
+}
+
+header ul li {
+    margin: 20px;
+      
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/* Header End */
+
+main {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* Profile Start */
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 25%;
+    background-color: #fadace;
+    padding: 20px 10px 10px 20px;
+    border: solid 5px #fadace;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#profile img {
+    height: 200px;
+    width: 60%;
+    object-fit: cover;
+    border: 5px;
+    border-radius: 10px;
+}
+
+/* Profile End */
+
+/* Work Start */
+
+
+#work {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 2%;
+    position: absolute;
+    top: 12%;
+    
+}
+
+#work h3 {
+    background-color: #e4dde7;
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+#work #list-section {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ 
+}
+
+#work #list-section .list {
+    width: 42%;
+    flex: 0 0 auto;
+    margin: 20px;
+    position: relative;
+    /* margin-bottom: 0;
+    margin-top: 0; */
+    
+}
+
+#work #list-section .list a img {
+   width: 100%;
+   height: 75%;
+   object-fit: cover;
+   border: 5px;
+   border-radius: 10px 10px 0px 0px;
+   
+    
+}
+
+#work #list-section .list p {
+    position: relative;
+    top: -10px;
+    background-color: #e4dde7;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px;
+}
+
+
+
+#work #list-section .list a:hover {
+    opacity: 50%
+
+}
+
+
+
+#work #list-section #ny {
+    width: 94%;
+    height: 0%;
+}
+
+
+
+
+/* Work End */
+
+/* Contact Start */
+
+#contact {
+    background-color: #e2bac0;
+    width: 25%;
+    padding: 0px 10px 10px 20px;
+    border: solid 5px #e2bac0;
+    border-radius: 10px;
+}
+
+#contact .links a {
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
+
+/* Contact End */
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 858px) {
+    #profile img {
+        height: 150px;
+    }
+
+    #work {
+        top: 15%;
+    }
+
+    #work #list-section #ny {
+        width: 94%;
+    }
+
+    #work #list-section .list {
+        width: 41%;
+    }
+    
+}
+
+@media only screen and (max-width: 742px) {
+    #work {
+        top: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 695px) {
+    header {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    
+
+    #profile {
+        width: 92%;
+        margin-right: 10px;
+    }
+
+    #profile img {
+        width: 30%;
+    }
+
+    #work {
+        position: relative;
+        margin: 0 auto;
+
+    }
+
+    #contact {
+        width: 92%;
+        margin-right: 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    #profile img {
+        width: 40%;
+    }
+
+    #work #list-section .list {
+        width: 40%;
+    }
+    
+}
+
+@media only screen and (max-width: 432px) {
+
+    #work #list-section .list {
+        width: 35%;
+    }
+
+    #profile {
+        width: 90%;
+    }
+
+    #contact {
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+
+ header h1 {
+    font-size: 20px;
+ }
+
+ header ul li {
+    font-size: 10px;
+ }
+
+ #work h3 {
+    font-size: 15px;
+ }
+    
+}
+
+
+
