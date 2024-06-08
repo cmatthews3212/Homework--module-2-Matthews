@@ -1,0 +1,120 @@
+/* All list resets */
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+/* Header Start */
+
+header {
+    background-color: #e2bac0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1 {
+    margin-left: 2%;
+}
+
+header ul {
+    margin-right: 2%;
+}
+
+header ul li {
+    margin: 20px;
+      
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #a2acb7;
+}
+
+/* Header End */
+
+main {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* Profile Start */
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 25%;
+}
+
+#profile img {
+    width: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+/* Profile End */
+
+/* Work Start */
+
+#work {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    
+}
+
+#work h3 {
+    text-align: center;
+}
+
+
+
+#work #list-section {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ 
+}
+
+#work #list-section .list {
+    width: 45%;
+    flex: 0 0 auto;
+    margin: 20px;
+    
+}
+
+#work #list-section .list a img {
+   width: 100%;
+   height: 75%;
+   object-fit: cover;
+   
+    
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+/* #work #list-section .list a img {
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
+} */
+
+
+
+/* Work End */
