@@ -100,7 +100,7 @@ main {
 }
 
 #work #list-section .list {
-    width: 45%;
+    width: 42%;
     flex: 0 0 auto;
     margin: 20px;
     position: relative;
@@ -169,3 +169,77 @@ main {
     }
     
 }
+
+@media only screen and (max-width: 695px) {
+    header {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    
+
+    #profile {
+        width: 92%;
+        margin-right: 10px;
+    }
+
+    #profile img {
+        width: 30%;
+    }
+
+    #work {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #contact {
+        width: 92%;
+        margin-right: 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    #profile img {
+        width: 40%;
+    }
+
+    #work #list-section .list {
+        width: 40%;
+    }
+    
+}
+
+@media only screen and (max-width: 432px) {
+
+    #work #list-section .list {
+        width: 35%;
+    }
+
+    #profile {
+        width: 90%;
+    }
+
+    #contact {
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+
+ header h1 {
+    font-size: 20px;
+ }
+
+ header ul li {
+    font-size: 10px;
+ }
+    
+}
+
+
+
