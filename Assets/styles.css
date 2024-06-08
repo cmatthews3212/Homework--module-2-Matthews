@@ -1,3 +1,5 @@
+
+
 /* All list resets */
 
 ul {
@@ -109,12 +111,25 @@ a:hover {
     opacity: 50%;
 }
 
-/* #work #list-section .list a img {
-    height: 45%;
-    width: 100%;
-    object-fit: cover;
-} */
-
-
 
 /* Work End */
+
+/* Contact Start */
+
+#contact {
+    background-color: #e2bac0;
+    width: 25%;
+    padding: 10px 0px 10px 20px;
+    border: solid 5px #e2bac0;
+    border-radius: 10px;
+}
+
+#contact .links a {
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
+
+    
+}
+
+/* Contact End */
