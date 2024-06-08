@@ -84,13 +84,17 @@ main {
 
 /* Work Start */
 
+#work h3 {
+    
+}
+
 #work {
     display: flex;
     flex-direction: column;
     margin-left: 30%;
     margin-right: 2%;
     position: absolute;
-    top: 10%;
+    top: 12%;
     
 }
 
@@ -122,17 +126,28 @@ main {
    height: 75%;
    object-fit: cover;
    border: 5px;
-   border-radius: 10px;
+   border-radius: 10px 10px 0px 0px;
    
     
 }
+
+#work #list-section .list p {
+    position: relative;
+    top: -10px;
+    background-color: #e4dde7;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px;
+}
+
 
 
 #work #list-section .list a:hover {
     opacity: 50%
 
-    
 }
+
+
 
 #work #list-section #ny {
     width: 94%;
@@ -160,6 +175,8 @@ main {
 }
 
 /* Contact End */
+
+
 
 /* Media Queries */
 
