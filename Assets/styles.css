@@ -84,14 +84,6 @@ main {
 
 /* Work Start */
 
-#work h3 {
-    background-color: #e4dde7;
-    width: 25%;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 15px;
-}
 
 #work {
     display: flex;
@@ -104,8 +96,16 @@ main {
 }
 
 #work h3 {
+    background-color: #e4dde7;
     text-align: center;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
 }
+
+
+
 
 
 
@@ -190,6 +190,10 @@ main {
         height: 150px;
     }
 
+    #work {
+        top: 15%;
+    }
+
     #work #list-section #ny {
         width: 94%;
     }
@@ -198,6 +202,13 @@ main {
         width: 41%;
     }
     
+}
+
+@media only screen and (max-width: 742px) {
+    #work {
+        top: 20%;
+    }
+
 }
 
 @media only screen and (max-width: 695px) {
@@ -221,6 +232,7 @@ main {
     #work {
         position: relative;
         margin: 0 auto;
+
     }
 
     #contact {
@@ -267,6 +279,10 @@ main {
 
  header ul li {
     font-size: 10px;
+ }
+
+ #work h3 {
+    font-size: 15px;
  }
     
 }
