@@ -15,7 +15,7 @@ Each image link will take a user to another website to signfy different applicat
 
 ## Link
 
-<a href="https://cmatthews3212.github.io/Homework--module-2-Matthews/">
+<a href="https://cmatthews3212.github.io/Homework--module-2-Matthews/"> https://cmatthews3212.github.io/Homework--module-2-Matthews/ </a>
 
 ## Credits
 N/A
